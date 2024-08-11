@@ -9,7 +9,7 @@ export const Banner = () => {
 
   /* is the word being typed out or deleted? */
   const [isDeleting, setIsDeleting] = useState<boolean>(false);
-  const toRotate = ["Welcome", "よこうそ", "Bienvenido", "Nnabata", "欢迎"];
+  const toRotate = ["Welcome", "ようこそ", "Bienvenido", "Nnabata", "欢迎"];
   const [text, setText] =
     useState<string>(""); /* Portion of word being displayed */
 
